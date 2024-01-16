@@ -55,6 +55,7 @@ export function Header() {
         <img className='w-[100px] md:w-[180px] mr-4 md:mr-12' src={logo} />
           <div className=' w-full md:w-[80%] max-w-[800px] flex'>
             <input 
+              data-testid="outlined-search"
               className='w-full h-10 border px-12 h-12 rounded rounded-lg outline-none'
               id="outlined-search" 
               onChange={(e) => setSearchText(e.target.value)} 
